@@ -1,6 +1,6 @@
 function sumSeconds(time1, time2, time3) {
     let totalTime = time1 + time2 + time3;
-    let minutes = Math.floor(totalTime / 60)``;
+    let minutes = Math.floor(totalTime / 60);
     let seconds = totalTime % 60;
 
 
